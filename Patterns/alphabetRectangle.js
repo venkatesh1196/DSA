@@ -1,0 +1,45 @@
+//* output 1
+let v = require('fs');
+let input = v.readFileSync(0, 'utf8').trim().split(/\s+/);
+let  n = Number(input[0]);
+let  m = Number(input[1]);
+    let ch = 65;
+for(let i = 1; i <= n; i++){
+    let row = "";
+    for(let j = 1; j <= m; j++){
+        row += String.fromCharCode(ch);
+    }
+        ch++;
+    console.log(row);
+}
+
+//* output 2
+let v = require('fs');
+let input = v.readFileSync(0, 'utf8').trim().split(/\s+/);
+let  n = Number(input[0]);
+let  m = Number(input[1]);
+for(let i = 1; i <= n; i++){
+    let ch = 65;
+    let row = "";
+    for(let j = 1; j <= m; j++){
+        row += String.fromCharCode(ch);
+        ch++;
+    }
+    console.log(row);
+}
+
+//* output 3
+
+let v = require('fs');
+let input = v.readFileSync(0, 'utf8').trim().split(/\s+/);
+let  n = Number(input[0]);
+let  m = Number(input[1]);
+    let ch = 65;
+for(let i = 1; i <= n; i++){
+    let row = "";
+    for(let j = 1; j <= m; j++){
+        row += String.fromCharCode(ch);
+        ch++;
+    }
+    console.log(row);
+}
