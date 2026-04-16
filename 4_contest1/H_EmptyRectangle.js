@@ -12,4 +12,4 @@ for(let i = 1; i <= N; i++){
             row += " ";
     }
     console.log(row);
-} add
+} 
